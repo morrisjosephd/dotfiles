@@ -1,0 +1,16 @@
+### Alias - General
+alias ll='ls -lahG'
+
+### Alias - SSH
+#Add public key to remote server:  	cat ~/.ssh/id_rsa.pub | ssh user@machine "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
+
+### Alias - Git
+alias st='git status'
+alias lg='git log --branches --remotes --tags --graph --oneline --decorate -15'
+alias co='git checkout'
+alias gc='git commit -m'
+
+### Alias - NPM
+alias npmglobal='npm list -g --depth=0'
+alias npmoutdated='npm outdated -g --depth=0'
+alias npmglobalfolder='cd /usr/local/lib/node_modules'
