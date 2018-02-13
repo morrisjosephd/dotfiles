@@ -37,13 +37,3 @@ brew cask install flycut
 brew cask install postman
 brew cask install visual-studio-code
 brew install bash-completion
-
-
-# Download git completion
-# TODO - is this the way I want to get this or use brew?
-# curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o .git-prompt.bash &&
-# curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o .git-completion.bash &&
-
-# wait
-# TODO what is this for?
-# git clone https://github.com/magicmonty/bash-git-prompt.git .bash-git-prompt --depth=1
