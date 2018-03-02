@@ -29,6 +29,7 @@ wait
 
 # Install useful packages
 echo "[script] installing useful packages"
+brew install jq
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install atom
