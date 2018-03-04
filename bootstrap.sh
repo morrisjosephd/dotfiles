@@ -6,6 +6,10 @@
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o .git-completion.bash
 wait
 
+# Install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+wait
+
 # Install programs from Homebrew
 source brew.sh
 wait
@@ -14,5 +18,6 @@ wait
 FILE_PATH=~/Projects/dotfiles/.bash_profile
 
 [ -r $FILE_PATH ] && [ -f $FILE_PATH ] && ln -s $FILE_PATH ~/.bash_profile
+wait
 
 source ~/.bash_profile
