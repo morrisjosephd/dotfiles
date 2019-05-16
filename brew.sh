@@ -35,7 +35,7 @@ brew install tree
 brew install yarn --without-node
 brew cask install iterm2
 brew cask install google-chrome
-brew cask install atom
+brew cask install slack
 brew cask install shiftit
 brew cask install flycut
 brew cask install postman
