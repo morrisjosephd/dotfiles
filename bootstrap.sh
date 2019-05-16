@@ -15,9 +15,15 @@ source brew.sh
 wait
 
 # Create symlink to .bash_profile and source it
-FILE_PATH=~/Projects/dotfiles/.bash_profile
-
+FILE_PATH=~/projects/dotfiles/.bash_profile
 [ -r $FILE_PATH ] && [ -f $FILE_PATH ] && ln -s $FILE_PATH ~/.bash_profile
 wait
 
 source ~/.bash_profile
+
+# Create symlink to .gitignore_global and source it
+FILE_PATH=~/projects/dotfiles/.gitignore_global
+[ -r $FILE_PATH ] && [ -f $FILE_PATH ] && ln -s $FILE_PATH ~/.gitignore_global
+wait
+
+source ~/.gitignore_global
