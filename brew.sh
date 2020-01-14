@@ -41,4 +41,6 @@ brew cask install flycut
 brew cask install postman
 brew cask install visual-studio-code
 brew cask install docker
+brew cask install sublime-merge
 brew install bash-completion
+
