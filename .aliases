@@ -6,7 +6,7 @@ alias ll='ls -lahG'
 
 ### Alias - Git
 alias st='git status'
-alias lg='git log --branches --remotes --tags --graph --oneline --decorate -15'
+alias lg='git log --color --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --branches'
 alias co='git checkout'
 alias gc='git commit -m'
 
