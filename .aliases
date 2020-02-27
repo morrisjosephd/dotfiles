@@ -1,5 +1,6 @@
 ### Alias - General
 alias ll='ls -lahG'
+alias clearclipboard='pbcopy < /dev/null'
 
 ### Alias - SSH
 #Add public key to remote server:  	cat ~/.ssh/id_rsa.pub | ssh user@machine "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
