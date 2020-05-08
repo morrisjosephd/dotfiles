@@ -54,3 +54,5 @@ brew cask install graphql-playground
 brew cask install makemkv
 brew cask install skitch
 brew cask install webstorm
+brew cask install contexts
+brew cask install tldr
