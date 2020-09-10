@@ -19,3 +19,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Shifit window cycling sizes
 defaults write org.shiftitapp.ShiftIt multipleActionsCycleWindowSizes YES
+export PATH="$HOME/.cargo/bin:$PATH"
+
+export PGDATA="/usr/local/var/postgres"
