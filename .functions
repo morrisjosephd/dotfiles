@@ -7,3 +7,7 @@ hideDotFilesInFinder() {
   defaults write com.apple.finder AppleShowAllFiles FALSE
   killall Finder
 }
+
+function wanStatus() {
+  ping 208.67.222.222
+}
