@@ -34,6 +34,8 @@ brew install vim
 brew install tree
 brew install yarn --without-node
 brew install packer
+brew install bash-completion
+brew install tldr
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install slack
@@ -52,5 +54,5 @@ brew cask install graphql-playground
 brew cask install makemkv
 brew cask install skitch
 brew cask install webstorm
-brew install bash-completion
-
+brew cask install contexts
+brew cask install tldr
