@@ -5,12 +5,6 @@ alias clearclipboard='pbcopy < /dev/null'
 ### Alias - SSH
 #Add public key to remote server:  	cat ~/.ssh/id_rsa.pub | ssh user@machine "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
 
-### Alias - Git
-alias st='git status'
-alias lg='git log --color --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --branches'
-alias co='git checkout'
-alias gc='git commit -m'
-
 ### Alias - NPM
 alias npmglobal='npm list -g --depth=0'
 alias npmoutdated='npm outdated -g --depth=0'

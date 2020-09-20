@@ -2,7 +2,7 @@ DOTFILES_PATH=~/projects/dotfiles/
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in $DOTFILES_PATH.{path,bash_prompt,exports,aliases,functions,extra}; do
+for file in $DOTFILES_PATH.{path,bash_prompt,exports,aliases,functions,extra,scriptdrop}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
@@ -13,3 +13,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Shifit window cycling sizes
 defaults write org.shiftitapp.ShiftIt multipleActionsCycleWindowSizes YES
+export PATH="$HOME/.cargo/bin:$PATH"
+
+export PGDATA="/usr/local/var/postgres"

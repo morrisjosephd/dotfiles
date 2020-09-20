@@ -1,0 +1,24 @@
+
+clear_elixir_cache() {
+    if [ $(ps x | grep -c "Visual Studio Code") -gt 1 ]; then
+        echo -e "${red}Visual Studio Code must be closed to update${endColor}"
+        exit 1
+    fi
+
+    echo -e "${yellow}=> Clearing ElixirLS cache${endColor}"
+    rm -rf .elixir_ls
+    rm -rf apps/*/.elixir_ls
+    echo -e "${green}=> Cleared cache${endColor}"
+}
+
+function mixServer() {
+  iex --name iexserver@127.0.0.1 -S mix phx.server
+}
+
+function mixClient() {
+  iex --name iexclient@127.0.0.1 --remsh iexserver@127.0.0.1
+}
+
+function retro() {
+  fd "retro.md" ~/Documents/ -x code
+}

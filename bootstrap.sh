@@ -27,3 +27,10 @@ FILE_PATH=~/projects/dotfiles/.gitignore_global
 wait
 
 source ~/.gitignore_global
+
+# Create symlink to .gitconfig and source it
+FILE_PATH=~/projects/dotfiles/.gitconfig
+[ -r $FILE_PATH] && [ -f $FILE_PATH ] && ln -s $FILE_PATH ~/.gitconfig
+wait
+
+source ~/.gitconfig
