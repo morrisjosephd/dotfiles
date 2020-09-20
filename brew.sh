@@ -33,9 +33,10 @@ brew install jq
 brew install vim
 brew install tree
 brew install yarn --without-node
-brew install packer
 brew install bash-completion
 brew install tldr
+brew install fd
+brew install httpie
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install slack
@@ -44,15 +45,12 @@ brew cask install flycut
 brew cask install postman
 brew cask install visual-studio-code
 brew cask install docker
-brew cask install sublime-merge
 brew cask install dropbox
 brew cask install lastpass
 brew cask install idrive
-brew cask install dbeaver-community
-brew cask install evernote
 brew cask install graphql-playground
 brew cask install makemkv
 brew cask install skitch
-brew cask install webstorm
 brew cask install contexts
-brew cask install tldr
+brew cask install makemkv
+brew cask install dash
