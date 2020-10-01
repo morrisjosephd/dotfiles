@@ -18,3 +18,5 @@
   co      = "checkout"
   # Simple example:  `git gc` expands to `git commit -m`
   gc      = "commit -m"
+  # Search for strings with files in the current repo
+  gr      = "grep -nC5"

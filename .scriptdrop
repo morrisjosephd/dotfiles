@@ -22,3 +22,7 @@ function mixClient() {
 function retro() {
   fd "retro.md" ~/Documents/ -x code
 }
+
+function docs() {
+  fd "workflow-docs" ~/Documents/ -x code
+}
