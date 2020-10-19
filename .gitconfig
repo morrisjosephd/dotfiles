@@ -20,3 +20,5 @@
   gc      = "commit -m"
   # Search for strings with files in the current repo
   gr      = "grep -nC5"
+
+  wip     = "reset --soft HEAD^"

@@ -9,3 +9,12 @@ alias clearclipboard='pbcopy < /dev/null'
 alias npmglobal='npm list -g --depth=0'
 alias npmoutdated='npm outdated -g --depth=0'
 alias npmglobalfolder='cd /usr/local/lib/node_modules'
+
+## Alias - Github CLI
+# checks:   pr checks "$1"
+# closed:   pr list -a morrisjosephd -s "closed"
+# co:       pr checkout
+# details:  issue view "$1"
+# me:       issue list -a morrisjosephd -l "blue team"
+# open:     pr list -a morrisjosephd
+# team:     issue list -l "blue team"
