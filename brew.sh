@@ -29,28 +29,28 @@ wait
 
 # Install useful packages
 echo "[script] installing useful packages"
-brew install jq
-brew install vim
-brew install tree
-brew install yarn --without-node
-brew install bash-completion
-brew install tldr
 brew install fd
+brew install bash-completion
 brew install httpie
-brew cask install iterm2
-brew cask install google-chrome
-brew cask install slack
-brew cask install shiftit
-brew cask install flycut
-brew cask install postman
-brew cask install visual-studio-code
-brew cask install docker
-brew cask install dropbox
-brew cask install lastpass
-brew cask install idrive
-brew cask install graphql-playground
-brew cask install makemkv
-brew cask install skitch
+brew install jq
+brew install tldr
+brew install tree
+brew install vim
+brew install yarn --without-node
+
 brew cask install contexts
-brew cask install makemkv
 brew cask install dash
+brew cask install docker
+brew cask install iterm2
+brew cask install dropbox
+brew cask install flycut
+brew cask install google-chrome
+brew cask install graphql-playground
+brew cask install idrive
+brew cask install lastpass
+brew cask install makemkv
+brew cask install postman
+brew cask install shiftit
+brew cask install skitch
+brew cask install slack
+brew cask install visual-studio-code
