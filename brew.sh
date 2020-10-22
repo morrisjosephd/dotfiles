@@ -50,6 +50,7 @@ brew cask install idrive
 brew cask install lastpass
 brew cask install makemkv
 brew cask install postman
+brew cask install screen
 brew cask install shiftit
 brew cask install skitch
 brew cask install slack

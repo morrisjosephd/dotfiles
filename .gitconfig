@@ -20,5 +20,7 @@
   gc      = "commit -m"
   # Search for strings with files in the current repo
   gr      = "grep -nC5"
-
-  wip     = "reset --soft HEAD^"
+  # Add a End Of Day Work In Process commit message
+  wip     = "commit -m 'EOD - WIP'"
+  # Unstage head by one commit
+  pop     = "reset --soft HEAD^"
