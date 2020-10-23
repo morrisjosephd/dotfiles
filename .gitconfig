@@ -24,3 +24,7 @@
   wip     = "commit -m 'EOD - WIP'"
   # Unstage head by one commit
   pop     = "reset --soft HEAD^"
+  # delete a remote branch
+  remoteKill    = "push origin --force :$1"
+  # update remote branch history
+  remoteUpdate  = "push origin --force $1:$2"
