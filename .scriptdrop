@@ -26,3 +26,9 @@ function retro() {
 function docs() {
   fd "workflow-docs" ~/Documents/ -x code
 }
+
+# Location to save Postgres data
+export PGDATA="/usr/local/var/postgres"
+
+# Place Rust on Path
+export PATH="$HOME/.cargo/bin:$PATH"
