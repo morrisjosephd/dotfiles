@@ -45,6 +45,7 @@ brew cask install docker
 brew cask install iterm2
 brew cask install dropbox
 brew cask install flycut
+brew cask install gitx
 brew cask install google-chrome
 brew cask install graphql-playground
 brew cask install idrive
