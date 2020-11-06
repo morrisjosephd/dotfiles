@@ -45,13 +45,13 @@ brew cask install docker
 brew cask install iterm2
 brew cask install dropbox
 brew cask install flycut
-brew cask install gitx
 brew cask install google-chrome
 brew cask install graphql-playground
 brew cask install idrive
 brew cask install lastpass
 brew cask install makemkv
 brew cask install postman
+brew cask install rowanj-gitx
 brew cask install screen
 brew cask install shiftit
 brew cask install skitch
