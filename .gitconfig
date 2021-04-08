@@ -12,6 +12,8 @@
   put     = "push origin HEAD"
   # Force push the current branch to a branch on origin with exactly the same name.
   please  = "push --force-with-lease origin HEAD"
+  # pull the remote branch and rebase
+  tug     = "pull --rebase"
   # Pretty print the logs in a nice, readable oneline format.
   lg      = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %Cblue[%an]%Creset' --graph --abbrev-commit --date=relative
   # Simple example:  `git co` expands to `git checkout`

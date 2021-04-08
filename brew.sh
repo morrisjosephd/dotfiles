@@ -32,6 +32,7 @@ echo "[script] installing useful packages"
 brew install fd
 brew install bash-completion
 brew install httpie
+brew install htop
 brew install gh
 brew install jq
 brew install tldr

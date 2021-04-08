@@ -11,6 +11,7 @@ alias npmoutdated='npm outdated -g --depth=0'
 alias npmglobalfolder='cd /usr/local/lib/node_modules'
 
 ## Alias - Github CLI
+alias ghl='gh alias list'
 # checks:   pr checks "$1"
 # closed:   pr list -a morrisjosephd -s "closed"
 # co:       pr checkout
