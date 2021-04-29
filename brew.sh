@@ -17,11 +17,6 @@ echo "[script] Running brew cleanup"
 brew cleanup
 wait
 
-# Clean up broken symlinks
-echo "[script] Running brew prune"
-brew prune
-wait
-
 # Update brew and installed packages
 echo "[script] Running brew update && brew upgrade"
 brew update && brew upgrade
@@ -40,21 +35,21 @@ brew install tree
 brew install vim
 brew install yarn --without-node
 
-brew cask install contexts
-brew cask install dash
-brew cask install docker
-brew cask install iterm2
-brew cask install dropbox
-brew cask install flycut
-brew cask install google-chrome
-brew cask install graphql-playground
-brew cask install idrive
-brew cask install lastpass
-brew cask install makemkv
-brew cask install postman
-brew cask install rowanj-gitx
-brew cask install screen
-brew cask install shiftit
-brew cask install skitch
-brew cask install slack
-brew cask install visual-studio-code
+brew install contexts
+brew install dash
+brew install docker
+brew install iterm2
+brew install dropbox
+brew install flycut
+brew install google-chrome
+brew install graphql-playground
+brew install idrive
+brew install lastpass
+brew install makemkv
+brew install postman
+brew install rowanj-gitx
+brew install screen
+brew install shiftit
+brew install skitch
+brew install slack
+brew install visual-studio-code
