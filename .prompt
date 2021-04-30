@@ -1,0 +1,23 @@
+# Load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+# Format the vcs_info_msg_0_ variable
+# zstyle ':vcs_info:git:*' formats '%b'
+
+# https://medium.com/pareture/simplest-zsh-prompt-configs-for-git-branch-name-3d01602a6f33
+function git_branch_name()
+{
+  branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
+  if [[ $branch == "" ]];
+  then
+    :
+  else
+    echo '('$branch')'
+  fi
+}
+
+
+# Set up the prompt (with git branch name)
+setopt PROMPT_SUBST
+PROMPT='%F{cyan}%n%f ${PWD/#$HOME/~} %F{yellow}$(git_branch_name)%f: '

@@ -17,6 +17,11 @@ echo "[script] Running brew cleanup"
 brew cleanup
 wait
 
+# Clean up broken symlinks
+echo "[script] Running brew prune"
+brew prune
+wait
+
 # Update brew and installed packages
 echo "[script] Running brew update && brew upgrade"
 brew update && brew upgrade
@@ -26,8 +31,8 @@ wait
 echo "[script] installing useful packages"
 brew install fd
 brew install bash-completion
-brew install httpie
 brew install htop
+brew install httpie
 brew install gh
 brew install jq
 brew install tldr
@@ -35,6 +40,7 @@ brew install tree
 brew install vim
 brew install yarn --without-node
 
+# Casks
 brew install contexts
 brew install dash
 brew install docker
@@ -48,7 +54,9 @@ brew install lastpass
 brew install makemkv
 brew install postman
 brew install rowanj-gitx
-brew install screen
+# Pop is the new name of screen.
+# Enable this once it makes it to Homebrew
+# brew cask install pop
 brew install shiftit
 brew install skitch
 brew install slack
