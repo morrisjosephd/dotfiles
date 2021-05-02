@@ -20,5 +20,6 @@ autoload -Uz compinit && compinit
 # Default command line editor
 export EDITOR="/usr/bin/vim"
 
-# Github CLI autocomplete
-# eval "$(gh completion -s bash)"
+# Bind option arrow keys to navigation one work back/forward in iTerm2
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[D" backward-word
