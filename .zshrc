@@ -7,6 +7,12 @@ for file in $DOTFILES_PATH.{path,prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+# Load asdf autocomplete
+. $HOME/.asdf/asdf.sh
+fpath=(${ASDF_DIR}/completions $fpath)
+
+# Load Github CLI autocomplete
+fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
 
 # Load zsh functions
 autoload -Uz compinit && compinit
